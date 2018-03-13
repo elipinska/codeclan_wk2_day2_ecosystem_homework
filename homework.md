@@ -25,5 +25,5 @@ We are going to build a small ecosystem! We want to create an ecosystem made up 
 
 - A river has a method ```a_fish_is_born( String )``` which will take a String which will become newborn fish's name DONE
 - A bear has a method digest() which will empty it's stomach DONE
-- A bear has a method ```hunt_for_many_fish( River, fish_count )``` which takes many fish objects and puts it in bear's stomach
-- A bear should be able to only eat many fish if they are that many in the river.
+- A bear has a method ```hunt_for_many_fish( River, fish_count )``` which takes many fish objects and puts it in bear's stomach DONE
+- A bear should be able to only eat many fish if they are that many in the river. DONE
