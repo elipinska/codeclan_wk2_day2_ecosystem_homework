@@ -16,10 +16,13 @@ class RiverTest < MiniTest::Test
    assert_equal(7, @river.fish_count())
  end
 
+ def test_river_with_no_fish
+   assert_equal([], River.new("Wisla").fish)
+ end
+
  def test_a_fish_is_born
    @river.a_fish_is_born("Carp")
    assert_equal("Carp", @river.fish[-1].species)
+   assert_equal(8, @river.fish_count())
  end
-
-
 end
